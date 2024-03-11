@@ -1,0 +1,99 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+  
+    background-image: url(./image/images/bg-desktop.svg);
+
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid:
+    "cabecalho cabecalho "
+    "img registro" 
+    "rodape rodape" ;
+    height: 100vh;
+
+}
+
+.cabecalho{
+    /* background-color: red; */
+  grid-area: cabecalho;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+
+}
+.img{
+    /* background-color: yellow; */
+    grid-area: img;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.registro{
+    /* background-color: aqua; */
+    grid-area: registro;
+    margin: 10px;
+    padding: 20px;
+}
+
+img{
+    /* width: 565px; */
+}
+
+.rodape{
+    /* background-color: blue; */
+    grid-area: rodape;
+    display: flex;
+    justify-content: end;
+  
+    
+}
+
+.main{
+
+    display: flex;
+
+}
+
+.texto{
+    font-size: 29px;
+    margin-top: 30px;
+
+}
+.paragrafo{
+    margin-top: 30px;
+}
+.btn{
+    font-size: 15px;
+    margin-top: 50px;
+    width: 160px;
+    height: 45px;
+    border-radius: 20px;
+    color: blueviolet;
+    
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram{
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    border-radius: 50px;
+    border: solid 1px white;
+       
+}
+
+.item:hover{
+    cursor: pointer;
+    
+
+    background-color: hsl(300, 69%, 71%) ;
+}
+
+.lista{
+    display: flex;
+}
+
+
